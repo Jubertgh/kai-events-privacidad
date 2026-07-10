@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — Kai Events</title>
+<style>
+  body {
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.6;
+    color: #1a1a1a;
+  }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .fecha { color: #666; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 20px; margin-top: 36px; color: #5E35B1; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; font-size: 14px; }
+  th { background: #f5f3fb; }
+  a { color: #5E35B1; }
+  .aviso {
+    background: #f5f3fb;
+    border-left: 4px solid #7C3AED;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Política de Privacidad de Kai Events</h1>
+<p class="fecha">Última actualización: julio de 2026</p>
+
+<div class="aviso">
+  <strong>Kai Events</strong> es una aplicación de punto de venta de uso
+  interno, desarrollada por Jubertgh Soluciones para la gestión de ventas,
+  clientes y productos del negocio que la opera. No está dirigida al público
+  general ni a menores de edad, y su acceso está restringido al personal
+  autorizado del negocio.
+</div>
+
+<h2>1. Datos que recopila la aplicación</h2>
+<table>
+  <tr><th>Dato</th><th>Para qué se usa</th></tr>
+  <tr><td>Usuario y contraseña</td><td>Autenticar al personal que usa la aplicación. La contraseña se almacena únicamente como un hash (SHA-256), nunca en texto plano.</td></tr>
+  <tr><td>Datos de clientes (nombre, teléfono, correo, RNC/cédula)</td><td>Registrados por el propio negocio para emitir ventas y comprobantes.</td></tr>
+  <tr><td>Datos de productos y ventas</td><td>Operación normal del punto de venta: inventario, transacciones, reportes.</td></tr>
+  <tr><td>Fotos (galería)</td><td>Únicamente para que el negocio seleccione el logo que se muestra en la aplicación y en los tickets impresos.</td></tr>
+</table>
+
+<p>La aplicación <strong>no recopila datos de ubicación</strong>. El permiso
+de Bluetooth se usa exclusivamente para conectar impresoras térmicas y está
+declarado ante Google Play como <em>"nunca para ubicación"</em>
+(<code>neverForLocation</code>).</p>
+
+<h2>2. Uso de la cámara</h2>
+<p>La cámara se utiliza únicamente para escanear códigos de barras de
+productos dentro del flujo de ventas. La aplicación no captura, almacena ni
+transmite fotografías o video de la cámara.</p>
+
+<h2>3. Con quién se comparten los datos</h2>
+<p>Los datos se sincronizan exclusivamente con el servidor propio del
+negocio que opera la aplicación (configurado por el administrador en
+Ajustes). <strong>No se comparten con terceros</strong>, redes de publicidad,
+ni se utilizan con fines comerciales ajenos al negocio.</p>
+
+<h2>4. Almacenamiento y seguridad</h2>
+<ul>
+  <li>Los datos se almacenan localmente en el dispositivo (base de datos
+  SQLite) para permitir el funcionamiento sin conexión, y se sincronizan con
+  el servidor del negocio cuando hay conexión disponible.</li>
+  <li>Las contraseñas se protegen mediante hash SHA-256.</li>
+  <li>La comunicación con el servidor usa HTTPS cuando el negocio configura
+  su servidor con certificado TLS.</li>
+</ul>
+
+<h2>5. Retención y eliminación de datos</h2>
+<p>Los datos se conservan mientras el negocio que administra la aplicación
+lo considere necesario para su operación. Para solicitar la eliminación de
+datos personales almacenados, contacta al correo indicado abajo.</p>
+
+<h2>6. Permisos declarados en Google Play</h2>
+<ul>
+  <li><strong>Cámara:</strong> escaneo de códigos de barras.</li>
+  <li><strong>Bluetooth:</strong> conexión con impresoras térmicas (nunca para ubicación).</li>
+  <li><strong>Almacenamiento/Fotos:</strong> selección del logo de la empresa.</li>
+  <li><strong>Internet:</strong> sincronización con el servidor del negocio.</li>
+</ul>
+
+<h2>7. Cambios a esta política</h2>
+<p>Esta política puede actualizarse para reflejar cambios en la aplicación.
+La fecha de la última actualización se indica al inicio de esta página.</p>
+
+<h2>8. Contacto</h2>
+<p>Para consultas sobre esta política o sobre tus datos, escribe a:
+<a href="mailto:jubertgh@gmail.com">jubertgh@gmail.com</a></p>
+
+</body>
+</html>
